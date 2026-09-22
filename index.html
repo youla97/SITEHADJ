@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hadj Guinée — Agence de Voyage Hadj &amp; Omra</title>
+<meta name="description" content="Hadj Guinée accompagne les pèlerins guinéens pour le Hadj et la Omra : formalités, visa, hébergement, encadrement religieux et voyage clé en main vers les Lieux Saints.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b6e4f'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle' fill='%23d4af37'%3E☾%3C/text%3E%3C/svg%3E">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== PRELOADER ===== -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <span class="preloader-icon"><i class="fa-solid fa-kaaba"></i></span>
+    <span class="preloader-text">Hadj Guinée</span>
+  </div>
+</div>
+
+<!-- ===== TOP BAR ===== -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-left">
+      <a href="tel:+224600000000"><i class="fa-solid fa-phone"></i> +224 6XX XX XX XX</a>
+      <a href="mailto:contact@hadjguinee.com"><i class="fa-solid fa-envelope"></i> contact@hadjguinee.com</a>
+      <span class="topbar-address"><i class="fa-solid fa-location-dot"></i> Kaloum, Conakry — Guinée</span>
+    </div>
+    <div class="topbar-right">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/224600000000" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#accueil" class="logo">
+      <span class="logo-icon"><i class="fa-solid fa-mosque"></i></span>
+      <span class="logo-text">Hadj <em>Guinée</em></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#apropos" class="nav-link">À propos</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#programme" class="nav-link">Programme</a></li>
+        <li><a href="#forfaits" class="nav-link">Forfaits</a></li>
+        <li><a href="#temoignages" class="nav-link">Témoignages</a></li>
+        <li><a href="#galerie" class="nav-link">Galerie</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-primary btn-sm">Réserver ma place</a>
+      <button class="burger" id="burger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="accueil">
+  <div class="hero-bg">
+    <img src="https://images.pexels.com/photos/38546891/pexels-photo-38546891/free-photo-of-aerial-view-of-kaaba-with-devout-pilgrims-circling.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Vue aérienne de la Kaaba entourée de pèlerins">
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="hero-pattern"></div>
+
+  <div class="container hero-content">
+    <p class="hero-kicker" data-aos>
+      <i class="fa-solid fa-star-and-crescent"></i> Agence agréée — Hadj &amp; Omra depuis la Guinée
+    </p>
+    <h1 class="hero-title" data-aos>
+      Vivez le voyage<br> d'une <span>vie spirituelle</span>
+    </h1>
+    <p class="hero-sub" data-aos>
+      Hadj Guinée accompagne chaque pèlerin, de Conakry jusqu'aux Lieux Saints, avec sérénité :
+      formalités, hébergement, transport et encadrement religieux clé en main.
+    </p>
+
+    <div class="hero-actions" data-aos>
+      <a href="#forfaits" class="btn btn-gold btn-lg"><i class="fa-solid fa-kaaba"></i> Découvrir nos forfaits</a>
+      <a href="#contact" class="btn btn-outline btn-lg">Parler à un conseiller</a>
+    </div>
+
+    <!-- Countdown -->
+    <div class="hero-countdown" data-aos>
+      <p class="countdown-label"><i class="fa-regular fa-clock"></i> Prochain départ groupe — Omra (date indicative)</p>
+      <div class="countdown" id="countdown" data-target="2026-12-10T00:00:00">
+        <div class="countdown-box"><span id="cd-days">00</span><small>Jours</small></div>
+        <div class="countdown-box"><span id="cd-hours">00</span><small>Heures</small></div>
+        <div class="countdown-box"><span id="cd-minutes">00</span><small>Min</small></div>
+        <div class="countdown-box"><span id="cd-seconds">00</span><small>Sec</small></div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#apropos" class="scroll-down" aria-label="Défiler vers le bas">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat-item" data-aos>
+      <i class="fa-solid fa-users"></i>
+      <span class="stat-number" data-count="3200">0</span>
+      <p>Pèlerins accompagnés</p>
+    </div>
+    <div class="stat-item" data-aos>
+      <i class="fa-solid fa-calendar-check"></i>
+      <span class="stat-number" data-count="15">0</span>
+      <p>Années d'expérience</p>
+    </div>
+    <div class="stat-item" data-aos>
+      <i class="fa-solid fa-plane-departure"></i>
+      <span class="stat-number" data-count="48">0</span>
+      <p>Groupes organisés</p>
+    </div>
+    <div class="stat-item" data-aos>
+      <i class="fa-solid fa-star"></i>
+      <span class="stat-number" data-count="98" data-suffix="%">0</span>
+      <p>Taux de satisfaction</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== A PROPOS ===== -->
+<section class="section about" id="apropos">
+  <div class="container about-grid">
+    <div class="about-media" data-aos>
+      <img class="about-img-main" src="https://images.pexels.com/photos/32290182/pexels-photo-32290182/free-photo-of-pilgrims-at-the-kaaba-in-mecca-during-hajj.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pèlerins autour de la Kaaba à La Mecque">
+      <img class="about-img-badge" src="https://images.pexels.com/photos/34461178/pexels-photo-34461178/free-photo-of-sunset-view-of-suleymaniye-mosque-in-istanbul.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mosquée au coucher du soleil">
+      <div class="about-exp">
+        <span>15+</span>
+        <p>Ans d'expérience<br>au service des pèlerins</p>
+      </div>
+    </div>
+
+    <div class="about-content" data-aos>
+      <p class="section-kicker">À propos de nous</p>
+      <h2 class="section-title">Votre partenaire de confiance pour le Hadj &amp; la Omra</h2>
+      <p class="about-text">
+        Depuis Conakry, Hadj Guinée facilite chaque étape du pèlerinage : dossier administratif,
+        visa, billets d'avion, hébergement à La Mecque et Médine, restauration, transport local
+        et accompagnement religieux par des encadreurs expérimentés. Notre mission est de vous
+        permettre de vivre pleinement votre spiritualité, sans souci logistique.
+      </p>
+
+      <ul class="about-list">
+        <li><i class="fa-solid fa-circle-check"></i> Agence agréée, dossiers traités en toute conformité</li>
+        <li><i class="fa-solid fa-circle-check"></i> Encadreurs religieux &amp; guides francophones sur place</li>
+        <li><i class="fa-solid fa-circle-check"></i> Hébergements sélectionnés proches des Haramain</li>
+        <li><i class="fa-solid fa-circle-check"></i> Suivi personnalisé avant, pendant et après le voyage</li>
+      </ul>
+
+      <div class="about-cta">
+        <a href="#contact" class="btn btn-primary">Nous contacter <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="about-phone">
+          <span class="about-phone-icon"><i class="fa-solid fa-headset"></i></span>
+          <div>
+            <small>Besoin d'un conseil ?</small>
+            <strong>+224 6XX XX XX XX</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <p class="section-kicker">Nos services</p>
+      <h2 class="section-title">Un accompagnement complet, de A à Z</h2>
+      <p class="section-desc">Chaque prestation est pensée pour votre sérénité spirituelle et matérielle.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card" data-aos>
+        <div class="service-icon"><i class="fa-solid fa-kaaba"></i></div>
+        <h3>Voyage Hadj</h3>
+        <p>Organisation complète du grand pèlerinage : visa Hadj, vols, hébergement à Mina, Arafat, Muzdalifah et campements climatisés.</p>
+      </div>
+      <div class="service-card" data-aos>
+        <div class="service-icon"><i class="fa-solid fa-moon"></i></div>
+        <h3>Voyage Omra</h3>
+        <p>Départs groupés toute l'année vers La Mecque et Médine, formules courtes ou prolongées, avec ou sans excursions.</p>
+      </div>
+      <div class="service-card" data-aos>
+        <div class="service-icon"><i class="fa-solid fa-passport"></i></div>
+        <h3>Visa &amp; Formalités</h3>
+        <p>Constitution du dossier, prise de rendez-vous, vaccination, assurance voyage et suivi administratif complet.</p>
+      </div>
+      <div class="service-card" data-aos>
+        <div class="service-icon"><i class="fa-solid fa-hotel"></i></div>
+        <h3>Hébergement</h3>
+        <p>Hôtels sélectionnés à proximité de la Masjid al-Haram et de la Masjid an-Nabawi selon votre formule.</p>
+      </div>
+      <div class="service-card" data-aos>
+        <div class="service-icon"><i class="fa-solid fa-bus"></i></div>
+        <h3>Transport sur place</h3>
+        <p>Navettes climatisées entre aéroport, hôtels et Lieux Saints, avec encadrement permanent du groupe.</p>
+      </div>
+      <div class="service-card" data-aos>
+        <div class="service-icon"><i class="fa-solid fa-book-quran"></i></div>
+        <h3>Formation religieuse</h3>
+        <p>Séminaires de préparation spirituelle avant le départ : rites, invocations et bonnes pratiques du pèlerin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROGRAMME / ETAPES ===== -->
+<section class="section programme" id="programme">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <p class="section-kicker">Comment ça marche</p>
+      <h2 class="section-title">Votre parcours en 5 étapes</h2>
+      <p class="section-desc">De l'inscription jusqu'à votre retour, nous restons à vos côtés.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item" data-aos>
+        <div class="timeline-number">01</div>
+        <h3>Inscription &amp; choix du forfait</h3>
+        <p>Vous choisissez votre formule (Économique, Confort ou VIP) et réservez votre place avec un acompte.</p>
+      </div>
+      <div class="timeline-item" data-aos>
+        <div class="timeline-number">02</div>
+        <h3>Dossier &amp; visa</h3>
+        <p>Notre équipe constitue votre dossier administratif complet et gère la demande de visa.</p>
+      </div>
+      <div class="timeline-item" data-aos>
+        <div class="timeline-number">03</div>
+        <h3>Formation spirituelle</h3>
+        <p>Séance de préparation religieuse et pratique animée par nos encadreurs avant le départ.</p>
+      </div>
+      <div class="timeline-item" data-aos>
+        <div class="timeline-number">04</div>
+        <h3>Voyage &amp; encadrement</h3>
+        <p>Départ groupé encadré, hébergement, transport et assistance permanente sur les Lieux Saints.</p>
+      </div>
+      <div class="timeline-item" data-aos>
+        <div class="timeline-number">05</div>
+        <h3>Retour &amp; suivi</h3>
+        <p>Accueil au retour à Conakry et suivi post-voyage pour recueillir votre témoignage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FORFAITS / TARIFS ===== -->
+<section class="section forfaits" id="forfaits">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <p class="section-kicker">Nos forfaits</p>
+      <h2 class="section-title">Une formule adaptée à chaque budget</h2>
+      <p class="section-desc">Tarifs indicatifs — devis personnalisé sur simple demande.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="price-card" data-aos>
+        <img src="https://images.pexels.com/photos/38546873/pexels-photo-38546873/free-photo-of-aerial-view-of-pilgrims-at-the-kaaba.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Forfait Économique">
+        <div class="price-body">
+          <h3>Économique</h3>
+          <p class="price-tag">à partir de <span>2 800 000</span> GNF</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Hébergement partagé (4-6 pers.)</li>
+            <li><i class="fa-solid fa-check"></i> Transport aéroport &amp; navettes</li>
+            <li><i class="fa-solid fa-check"></i> Encadrement religieux de groupe</li>
+            <li><i class="fa-solid fa-check"></i> Visa &amp; assurance inclus</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Choisir cette formule</a>
+        </div>
+      </div>
+
+      <div class="price-card popular" data-aos>
+        <span class="price-badge">Le plus choisi</span>
+        <img src="https://images.pexels.com/photos/35315918/pexels-photo-35315918/free-photo-of-pilgrims-around-the-kaaba-in-mecca-saudi-arabia.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Forfait Confort">
+        <div class="price-body">
+          <h3>Confort</h3>
+          <p class="price-tag">à partir de <span>4 200 000</span> GNF</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Hôtel 3-4★ proche des Haramain</li>
+            <li><i class="fa-solid fa-check"></i> Chambre 2-3 personnes</li>
+            <li><i class="fa-solid fa-check"></i> Pension complète</li>
+            <li><i class="fa-solid fa-check"></i> Encadreur dédié &amp; excursions</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold btn-block">Choisir cette formule</a>
+        </div>
+      </div>
+
+      <div class="price-card" data-aos>
+        <img src="https://images.pexels.com/photos/34999014/pexels-photo-34999014/free-photo-of-aerial-view-of-the-kaaba-at-night.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Forfait VIP">
+        <div class="price-body">
+          <h3>VIP / Premium</h3>
+          <p class="price-tag">à partir de <span>7 500 000</span> GNF</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Hôtel 5★ vue Haram</li>
+            <li><i class="fa-solid fa-check"></i> Chambre individuelle ou duo</li>
+            <li><i class="fa-solid fa-check"></i> Assistance VIP &amp; bagagerie</li>
+            <li><i class="fa-solid fa-check"></i> Encadreur privé 24h/24</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Choisir cette formule</a>
+        </div>
+      </div>
+    </div>
+    <p class="pricing-note">* Tarifs susceptibles de varier selon la période, le taux de change et la disponibilité. Facilités de paiement en plusieurs tranches disponibles.</p>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="cta-bg">
+    <img src="https://images.pexels.com/photos/34358440/pexels-photo-34358440/free-photo-of-view-from-airplane-window-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Vue depuis un avion au coucher du soleil">
+    <div class="cta-overlay"></div>
+  </div>
+  <div class="container cta-content" data-aos>
+    <h2>Prêt à répondre à l'appel des Lieux Saints ?</h2>
+    <p>Nos places partent vite. Réservez dès maintenant votre voyage spirituel avec Hadj Guinée.</p>
+    <a href="#contact" class="btn btn-gold btn-lg">Réserver ma place <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<!-- ===== TEMOIGNAGES ===== -->
+<section class="section temoignages" id="temoignages">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <p class="section-kicker">Témoignages</p>
+      <h2 class="section-title">Ce que disent nos pèlerins</h2>
+    </div>
+
+    <div class="testi-slider" data-aos>
+      <div class="testi-track" id="testiTrack">
+        <div class="testi-card">
+          <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>« Un accompagnement exceptionnel du début à la fin. L'équipe de Hadj Guinée a géré chaque détail, nous n'avions qu'à nous concentrer sur nos prières. »</p>
+          <div class="testi-author">
+            <span class="testi-avatar">MB</span>
+            <div><strong>Mamadou Bah</strong><small>Pèlerin Hadj 1446H</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>« Encadreurs disponibles jour et nuit, hôtel très bien situé. Je recommande vivement pour toute personne qui part pour la première fois. »</p>
+          <div class="testi-author">
+            <span class="testi-avatar">FC</span>
+            <div><strong>Fatoumata Camara</strong><small>Pèlerine Omra</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+          <p>« Formation avant le départ très utile, cela nous a permis d'aborder le pèlerinage sereinement, en connaissant bien tous les rites. »</p>
+          <div class="testi-author">
+            <span class="testi-avatar">AD</span>
+            <div><strong>Alpha Diallo</strong><small>Pèlerin Hadj 1445H</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>« Rapport qualité-prix excellent avec la formule Confort. Toute ma famille a été très bien prise en charge à Médine comme à La Mecque. »</p>
+          <div class="testi-author">
+            <span class="testi-avatar">HS</span>
+            <div><strong>Hawa Sylla</strong><small>Pèlerine Omra en famille</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-controls">
+        <button id="testiPrev" aria-label="Précédent"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="testi-dots" id="testiDots"></div>
+        <button id="testiNext" aria-label="Suivant"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERIE ===== -->
+<section class="section galerie" id="galerie">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <p class="section-kicker">Galerie</p>
+      <h2 class="section-title">Instants de pèlerinage</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/38546891/pexels-photo-38546891/free-photo-of-aerial-view-of-kaaba-with-devout-pilgrims-circling.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Vue aérienne de la Kaaba"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/38546892/pexels-photo-38546892/free-photo-of-pilgrims-performing-tawaf-around-kaaba-at-mecca.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pèlerins effectuant le Tawaf"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/34999014/pexels-photo-34999014/free-photo-of-aerial-view-of-the-kaaba-at-night.jpeg?auto=compress&cs=tinysrgb&w=800" alt="La Kaaba de nuit"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/34461178/pexels-photo-34461178/free-photo-of-sunset-view-of-suleymaniye-mosque-in-istanbul.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mosquée au coucher de soleil"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/35315918/pexels-photo-35315918/free-photo-of-pilgrims-around-the-kaaba-in-mecca-saudi-arabia.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pèlerins autour de la Kaaba"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/38546901/pexels-photo-38546901/free-photo-of-aerial-view-of-pilgrims-at-the-kaaba-in-mecca.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pèlerins à La Mecque"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/26436656/pexels-photo-26436656/free-photo-of-long-exposure-photo-of-kaaba-surrounded-by-crowds-of-people.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Longue exposition autour de la Kaaba"></div>
+      <div class="gallery-item" data-aos><img src="https://images.pexels.com/photos/34358440/pexels-photo-34358440/free-photo-of-view-from-airplane-window-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Voyage en avion au coucher du soleil"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section faq" id="faq">
+  <div class="container faq-grid">
+    <div class="faq-intro" data-aos>
+      <p class="section-kicker">Questions fréquentes</p>
+      <h2 class="section-title">Tout savoir avant de réserver</h2>
+      <p class="section-desc">Vous ne trouvez pas la réponse à votre question ? Contactez-nous directement, notre équipe vous répond rapidement.</p>
+      <a href="#contact" class="btn btn-primary">Poser une question <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <div class="faq-list" data-aos>
+      <div class="faq-item active">
+        <button class="faq-question">Quels documents sont nécessaires pour le Hadj ou la Omra ?<i class="fa-solid fa-chevron-down"></i></button>
+        <div class="faq-answer"><p>Passeport valide plus de 6 mois, photos d'identité, carnet de vaccination (dont méningite), et justificatif de paiement. Notre équipe vous fournit la liste complète et vous accompagne dans la constitution du dossier.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Quel est le délai idéal pour réserver ?<i class="fa-solid fa-chevron-down"></i></button>
+        <div class="faq-answer"><p>Nous recommandons de réserver au moins 2 à 3 mois avant la date de départ souhaitée afin de garantir votre place et le traitement serein du visa.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Le paiement peut-il se faire en plusieurs tranches ?<i class="fa-solid fa-chevron-down"></i></button>
+        <div class="faq-answer"><p>Oui, un acompte permet de réserver votre place, le solde pouvant être réglé en plusieurs échéances jusqu'à un mois avant le départ.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Y a-t-il un encadrement religieux sur place ?<i class="fa-solid fa-chevron-down"></i></button>
+        <div class="faq-answer"><p>Chaque groupe est accompagné par des encadreurs religieux francophones qui guident les pèlerins dans l'accomplissement correct des rites, du début à la fin du séjour.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Proposez-vous des formules pour les familles ?<i class="fa-solid fa-chevron-down"></i></button>
+        <div class="faq-answer"><p>Oui, nous adaptons les chambres et le programme pour les familles avec enfants, avec un accompagnement dédié tout au long du séjour.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <p class="section-kicker">Contact</p>
+      <h2 class="section-title">Parlons de votre voyage</h2>
+      <p class="section-desc">Notre équipe vous répond sous 24h pour vous conseiller et établir un devis personnalisé.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info" data-aos>
+        <div class="contact-info-item">
+          <span><i class="fa-solid fa-location-dot"></i></span>
+          <div><strong>Adresse</strong><p>Quartier Kaloum, Conakry — République de Guinée</p></div>
+        </div>
+        <div class="contact-info-item">
+          <span><i class="fa-solid fa-phone"></i></span>
+          <div><strong>Téléphone</strong><p>+224 6XX XX XX XX</p></div>
+        </div>
+        <div class="contact-info-item">
+          <span><i class="fa-brands fa-whatsapp"></i></span>
+          <div><strong>WhatsApp</strong><p>+224 6XX XX XX XX</p></div>
+        </div>
+        <div class="contact-info-item">
+          <span><i class="fa-solid fa-envelope"></i></span>
+          <div><strong>Email</strong><p>contact@hadjguinee.com</p></div>
+        </div>
+        <div class="contact-info-item">
+          <span><i class="fa-solid fa-clock"></i></span>
+          <div><strong>Horaires</strong><p>Lun – Sam : 8h00 – 18h00</p></div>
+        </div>
+
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps?q=Conakry,Guinea&output=embed" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation Conakry"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" data-aos>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Nom complet</label>
+            <input type="text" id="fname" name="fname" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <label for="fphone">Téléphone</label>
+            <input type="tel" id="fphone" name="fphone" placeholder="+224 ..." required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="femail">Email</label>
+            <input type="email" id="femail" name="femail" placeholder="vous@email.com">
+          </div>
+          <div class="form-group">
+            <label for="fforfait">Forfait souhaité</label>
+            <select id="fforfait" name="fforfait">
+              <option value="Omra">Omra</option>
+              <option value="Hadj">Hadj</option>
+              <option value="Economique">Économique</option>
+              <option value="Confort">Confort</option>
+              <option value="VIP">VIP / Premium</option>
+              <option value="Non decide">Je ne sais pas encore</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fmessage">Message</label>
+          <textarea id="fmessage" name="fmessage" rows="4" placeholder="Parlez-nous de votre projet de voyage..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">
+          <i class="fa-brands fa-whatsapp"></i> Envoyer via WhatsApp
+        </button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-pattern"></div>
+  <div class="container footer-grid">
+    <div class="footer-col footer-about">
+      <a href="#accueil" class="logo footer-logo">
+        <span class="logo-icon"><i class="fa-solid fa-mosque"></i></span>
+        <span class="logo-text">Hadj <em>Guinée</em></span>
+      </a>
+      <p>Votre agence de confiance pour un pèlerinage serein, du dossier administratif jusqu'à votre retour à Conakry.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/224600000000" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Liens rapides</h4>
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Nos services</a></li>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#forfaits">Forfaits</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Voyage Hadj</a></li>
+        <li><a href="#services">Voyage Omra</a></li>
+        <li><a href="#services">Visa &amp; Formalités</a></li>
+        <li><a href="#services">Hébergement</a></li>
+        <li><a href="#services">Formation religieuse</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Recevez nos prochaines dates de départ et offres spéciales.</p>
+      <form class="footer-newsletter" id="newsletterForm">
+        <input type="email" placeholder="Votre email" required>
+        <button type="submit" aria-label="S'inscrire"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© <span id="year"></span> Hadj Guinée. Tous droits réservés.</p>
+      <p>Conçu avec <i class="fa-solid fa-heart"></i> pour les pèlerins de Guinée</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== FLOATING BUTTONS ===== -->
+<a href="https://wa.me/224600000000" class="float-btn whatsapp-float" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+<button class="float-btn back-to-top" id="backToTop" aria-label="Retour en haut">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fermer"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Précédent"><i class="fa-solid fa-chevron-left"></i></button>
+  <img src="" alt="" id="lightboxImg">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Suivant"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
