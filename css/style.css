@@ -186,6 +186,9 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
   font-size: 1.15rem;
 }
 
+.header .logo { gap: 8px; font-size: 1.15rem; }
+.header .logo .logo-icon { width: 34px; height: 34px; border-radius: 9px; font-size: 0.95rem; }
+
 .nav-list { display: flex; gap: 30px; }
 .nav-link { font-weight: 500; font-size: 0.94rem; color: var(--dark); position: relative; padding: 6px 0; }
 .nav-link::after {
