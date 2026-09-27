@@ -203,7 +203,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 .burger.active span:nth-child(2) { opacity: 0; }
 .burger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .nav {
     position: fixed; top: 0; right: -100%; width: min(320px, 82%); height: 100vh;
     background: var(--white); box-shadow: -10px 0 40px rgba(0,0,0,0.15);
