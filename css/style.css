@@ -174,7 +174,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
   box-shadow: 0 2px 18px rgba(18,24,26,0.06);
   transition: var(--transition);
 }
-.header-inner { display: flex; align-items: center; justify-content: space-between; height: 84px; transition: var(--transition); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 84px; transition: var(--transition); }
 .header.scrolled .header-inner { height: 68px; }
 
 .logo { display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--primary-dark); }
@@ -186,11 +186,12 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
   font-size: 1.15rem;
 }
 
-.header .logo { gap: 8px; font-size: 1.15rem; margin-right: 32px; }
-.header .logo .logo-icon { width: 34px; height: 34px; border-radius: 9px; font-size: 0.95rem; }
+.header .logo { gap: 8px; font-size: 1.1rem; flex-shrink: 0; }
+.header .logo .logo-text { white-space: nowrap; }
+.header .logo .logo-icon { width: 34px; height: 34px; border-radius: 9px; font-size: 0.95rem; flex-shrink: 0; }
 
-.nav-list { display: flex; gap: 30px; }
-.nav-link { font-weight: 500; font-size: 0.94rem; color: var(--dark); position: relative; padding: 6px 0; }
+.nav-list { display: flex; gap: 30px; flex-shrink: 0; }
+.nav-link { font-weight: 500; font-size: 0.94rem; color: var(--dark); position: relative; padding: 6px 0; white-space: nowrap; }
 .nav-link::after {
   content: ""; position: absolute; left: 0; bottom: -2px; width: 0; height: 2px;
   background: var(--gold); transition: width 0.3s ease;
@@ -198,7 +199,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 .nav-link:hover, .nav-link.active { color: var(--primary); }
 .nav-link:hover::after, .nav-link.active::after { width: 100%; }
 
-.header-actions { display: flex; align-items: center; gap: 20px; }
+.header-actions { display: flex; align-items: center; gap: 20px; flex-shrink: 0; }
 
 .burger { display: none; flex-direction: column; gap: 5px; width: 30px; z-index: 501; }
 .burger span { display: block; height: 2px; width: 100%; background: var(--dark); transition: var(--transition); border-radius: 2px; }
@@ -206,7 +207,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 .burger.active span:nth-child(2) { opacity: 0; }
 .burger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
   .nav {
     position: fixed; top: 0; right: -100%; width: min(320px, 82%); height: 100vh;
     background: var(--white); box-shadow: -10px 0 40px rgba(0,0,0,0.15);
